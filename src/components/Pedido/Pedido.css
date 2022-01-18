@@ -1,0 +1,30 @@
+.ingredientes-agregados{
+    position: absolute;
+    top: 15px;
+}
+
+.totalbtn{
+    font-size: 30px!important;
+    font-weight: 700!important;
+    color: white!important;
+}
+
+.tituloCards{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.tituloCards::after{
+    content:'';
+    width: 250px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

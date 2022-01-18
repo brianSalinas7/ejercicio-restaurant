@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+.contenido-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+.contenido-header p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.titulo{
+    font-size: 150px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    align-items: center;
+}
+.header, .bg-cheddar{
+    background-color: #FCBE15;
+}

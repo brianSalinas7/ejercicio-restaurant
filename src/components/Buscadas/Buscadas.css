@@ -1,0 +1,43 @@
+.bg-custom{
+    background-image: linear-gradient(to top, black 45%, transparent)!important;
+
+}
+.info{
+    position: inherit;
+    bottom: 0;
+    padding: 15px;
+}
+.info h2{
+    text-align: center;
+}
+
+.precio-card{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(218, 175, 34);
+}
+
+.tituloCards{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.tituloCards::after{
+    content:'';
+    width: 250px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.card-title{
+    color: #FCBE15;
+}
