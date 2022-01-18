@@ -11,11 +11,26 @@
     font-weight: 600;
 }
 .titulo{
-    font-size: 150px;
+    font-size: 130px;
     font-family: 'Merriweather', serif;
     font-weight: 700;
     align-items: center;
 }
 .header, .bg-cheddar{
     background-color: #FCBE15;
+}
+
+@media(max-width: 720px){
+    .burger-text{
+        flex-direction: column!important;
+        margin: auto!important;
+    }
+    .titulo{
+        font-size: 50px;
+        text-align: center;
+    }
+    .burger-responsive{
+        width: 90%!important;
+        margin: auto;
+    }
 }

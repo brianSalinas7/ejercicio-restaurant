@@ -41,3 +41,17 @@
 .card-title{
     color: #FCBE15;
 }
+
+@media (max-width: 720px){
+    .card-responsive{
+        flex-direction: column;
+        position: relative;
+    }
+
+    .card{
+        position:absolute;
+        width: 95%!important;
+        margin: 100px auto;
+        height: 60px;
+    }
+}

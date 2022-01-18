@@ -13,7 +13,7 @@ const Premium = () => {
     }
 
     useEffect(() => {
-        getPremium()
+         getPremium()
     },[])
     return(
         
