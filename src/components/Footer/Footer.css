@@ -1,10 +1,21 @@
 .footer{
     padding: 50px;
     background-color: #FCBE15;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 .nombre-footer{
     font-size: 40px;
     font-weight: 700;
     
+}
+
+@media(min-width: 1024px){
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

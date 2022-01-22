@@ -1,12 +1,10 @@
-.ingredientes-agregados{
-    position: absolute;
-    top: 15px;
-}
+
 
 .totalbtn{
     font-size: 30px!important;
     font-weight: 700!important;
     color: white!important;
+    text-align: center;
 }
 
 .tituloCards{
@@ -14,7 +12,8 @@
     font-weight: 700;
     text-align: center;
     position: relative;
-    padding-bottom: 15px;
+    padding: 30px 0 15px 0;
+
 }
 
 .tituloCards::after{
@@ -27,4 +26,121 @@
     left: 0;
     right: 0;
     margin: auto;
+}
+.bg-ingredientes{
+    background-color: #FCBE15;
+}
+.all-ingredientes{
+    width: 80%;
+    margin: auto!important;
+    padding: 30px 0;
+}
+.button{
+    background-color: black!important;
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.foto-nombre img{
+    width:50%;
+    margin: auto;
+}
+.foto-nombre {
+    color: rgb(170, 170, 170);
+}
+.foto-nombre{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.price-ingredientes{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 600;
+    color: #FCBE15; 
+}
+.ingredientes-agregados{
+    padding: 20px 5px;
+}
+.ingredientes-agregados>h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 30px auto
+}
+.elegi-promo{
+    display: none;
+}
+
+.ingrediente-pedido{
+    margin: auto;
+}
+.ingrediente-pedido img{
+    width: 30%;
+}
+.ingrediente-pedido p, .ingrediente-pedido i{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.pedido-vacio{
+    text-align: center;
+    margin-top: 15px;
+}
+.botones-operacion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.botones-operacion button{
+    margin: 10px;
+    font-size: 13px;
+}
+
+@media(min-width: 1024px){
+    .button{
+        
+        width: 100%;
+    }
+    .elegi-promo{
+        display: block;
+        width: 100%;
+    }
+    .all-ingredientes{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .ingrediente-pedido img{
+        width: 40%;
+    }
+    .ingrediente-pedido i{
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+    }
+    .pedido-vacio{
+        display: none;
+    }
+    .botones-operacion{
+        margin: auto!important;
+        padding: 0;
+    }
+    .botones-operacion button{
+        font-size: 13px!important;
+    }
+    
+}
+@media(min-width:768px){
+    .botones-operacion{
+        width: 70%;
+        margin: auto;
+    }
+    .botones-operacion button{
+        font-size: 30px;
+    }
 }

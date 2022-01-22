@@ -17,29 +17,21 @@ const Premium = () => {
     },[])
     return(
         
-        <div className="position-relative">
+        <div className="">
             <h2 className="tituloCards my-5">Premium</h2>
            { premium.length > 0 ?
-           <div className="d-flex justify-content-between container mt-5 " style={{width: "100%", height:"350px"}} >
-           {premium.map(x => (
-               <div className="card bg-dark text-white" style={{width: "24%"}} key={x.id}>
-                   <div>
-                        <img src={require(`../../assets/img/premium/${x.imagen}.png`)} className="card-img" />
-                        <div className="card-img-overlay bg-custom">
-                            <div className="info">
-                                <h5 className="card-title">{x.nombre}</h5>
-                                <ul>
-                                {x.ingredientes.map(ingre =>(
-                                    <li key={ingre}>{ingre}</li>
-                                ))}
-                                </ul>
-                                <p className="card-text text-center precio-card warning"> ${x.precio} </p>
-                            </div>
-                        </div>
-                    </div>
+            <div className="all-cards" >
+            {premium.map(x => (
+                <div className="card bg-dark text-white one-card" key={x.id}>
+                <img src={require(`../../assets/img/premium/${x.imagen}.png`)} className="card-img" alt={x.nombre}/>
+                <div className="card-img-overlay">
+                  <h5 className="card-title">{x.nombre}</h5>
+                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text">Last updated 3 mins ago</p>
                 </div>
-           ))}
-           </div>
+              </div>
+            ))}
+            </div>
                 :
 
             ''

@@ -20,7 +20,14 @@
     background-color: #FCBE15;
 }
 
-@media(max-width: 720px){
+@media(max-width: 992px){
+    .titulo{
+        font-size: 70px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px){
     .burger-text{
         flex-direction: column!important;
         margin: auto!important;

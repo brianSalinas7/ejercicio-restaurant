@@ -1,4 +1,4 @@
-.bg-custom{
+/* .bg-custom{
     background-image: linear-gradient(to top, black 43%, transparent)!important;
 
 }
@@ -18,15 +18,15 @@
     color: rgb(218, 175, 34);
 }
 
-.tituloCards{
+/* .tituloCards{
     font-size: 40px;
     font-weight: 700;
     text-align: center;
     position: relative;
     padding-bottom: 15px;
-}
+} */
 
-.tituloCards::after{
+/* .tituloCards::after{
     content:'';
     width: 250px;
     height: 5px;
@@ -36,4 +36,4 @@
     left: 0;
     right: 0;
     margin: auto;
-}
+}  */

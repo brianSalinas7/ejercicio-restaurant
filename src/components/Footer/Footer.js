@@ -1,7 +1,7 @@
 import './Footer.css'
 const Footer = () => {
     return(
-        <div className='d-flex footer justify-content-between'>
+        <div className='footer'>
             <div>
                 <p>Bulldog.pdtc@gmail.com</p>
                 <p>Tel:+54 12313 4545</p>

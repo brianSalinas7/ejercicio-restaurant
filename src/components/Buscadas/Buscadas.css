@@ -1,57 +1,32 @@
-.bg-custom{
-    background-image: linear-gradient(to top, black 45%, transparent)!important;
-
+.all-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
-.info{
-    position: inherit;
-    bottom: 0;
-    padding: 15px;
-}
-.info h2{
-    text-align: center;
+.one-card{
+    width: 90%;
+    margin: 15px auto;
 }
 
-.precio-card{
-    font-size: 25px;
-    font-weight: 700;
-    text-align: center;
-    color: rgb(218, 175, 34);
-}
-
-.tituloCards{
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-    position: relative;
-    padding-bottom: 15px;
-}
-
-.tituloCards::after{
-    content:'';
-    width: 250px;
-    height: 5px;
-    background-color: red;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.card-title{
-    color: #FCBE15;
-}
-
-@media (max-width: 720px){
-    .card-responsive{
-        flex-direction: column;
-        position: relative;
+@media(min-width: 1024px){
+    .one-card{
+        width: 24%!important;
+        height: 200px;
+        justify-content: space-between!important;
     }
-
-    .card{
-        position:absolute;
-        width: 95%!important;
-        margin: 100px auto;
-        height: 60px;
+    .all-cards{
+        margin-bottom: 50px;
+    }
+    
+}
+@media (min-width: 768PX){
+    .all-cards{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .one-card{
+        width: 48%;
     }
 }
+
