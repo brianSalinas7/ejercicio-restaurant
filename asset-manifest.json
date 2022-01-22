@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ejercicio-restaurant/static/css/main.311d5041.css",
-    "main.js": "/ejercicio-restaurant/static/js/main.eac65a9e.js",
+    "main.css": "/ejercicio-restaurant/static/css/main.1e1c03bd.css",
+    "main.js": "/ejercicio-restaurant/static/js/main.afc69ff1.js",
     "static/js/787.94e5cc11.chunk.js": "/ejercicio-restaurant/static/js/787.94e5cc11.chunk.js",
     "static/media/Rottweiler.png": "/ejercicio-restaurant/static/media/Rottweiler.1d132f63898302c3c501.png",
     "static/media/hamburguesaPortada.png": "/ejercicio-restaurant/static/media/hamburguesaPortada.1d1818700e3bef5a4b7e.png",
@@ -22,12 +22,12 @@
     "static/media/burger.png": "/ejercicio-restaurant/static/media/burger.2144c288cd1f7549e317.png",
     "static/media/Chiguagua.png": "/ejercicio-restaurant/static/media/Chiguagua.26211344d15cce4c6037.png",
     "index.html": "/ejercicio-restaurant/index.html",
-    "main.311d5041.css.map": "/ejercicio-restaurant/static/css/main.311d5041.css.map",
-    "main.eac65a9e.js.map": "/ejercicio-restaurant/static/js/main.eac65a9e.js.map",
+    "main.1e1c03bd.css.map": "/ejercicio-restaurant/static/css/main.1e1c03bd.css.map",
+    "main.afc69ff1.js.map": "/ejercicio-restaurant/static/js/main.afc69ff1.js.map",
     "787.94e5cc11.chunk.js.map": "/ejercicio-restaurant/static/js/787.94e5cc11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.311d5041.css",
-    "static/js/main.eac65a9e.js"
+    "static/css/main.1e1c03bd.css",
+    "static/js/main.afc69ff1.js"
   ]
 }
